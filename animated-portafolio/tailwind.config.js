@@ -33,9 +33,8 @@ export default {
         "spin-slow": "spin 25s ease-in-out infinite reverse"
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
+        services: "url('./assets/avatar.png')",
       },
     },
   },

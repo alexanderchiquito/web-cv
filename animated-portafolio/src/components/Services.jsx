@@ -8,17 +8,17 @@ const services = [
   {
     name: "UI/UX",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe voluptatum eum eligendi magni? ",
+      "#Figma, #React.js, #Stack of Html, Css, JavaScript #Sass, #Tailwindcss ",
   },
   {
-    name: "Develooment",
+    name: "Development",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe voluptatum eum eligendi magni? ",
+      "#JavaScript, #Python, #Java",
   },
   {
-    name: "Develooment",
+    name: "Development Back-end and Tools",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe voluptatum eum eligendi magni? ",
+      "#MySQL, #node.js, #Postman ",
   },
 ];
 const Services = () => {
@@ -36,8 +36,7 @@ const Services = () => {
           >
             <h2 className="h2 text-gradient mb-6">What I Do</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
-              saepe voluptatum eum eligendi magni?
+              Apply knowledge <br/>application development
             </h3>
           </motion.div>
           {/*Services */}
@@ -59,7 +58,7 @@ const Services = () => {
                     key={index}
                   >
                     <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6 ">
+                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6 text-gradient ">
                         {name}
                       </h4>
                       <p className="font-secondary leading-tight">

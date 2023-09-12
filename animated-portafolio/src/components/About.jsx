@@ -34,10 +34,9 @@ const About = () => {
             <h2 className="h2 text-gradient mb-4">About me.</h2>
             <h3 className="h3">Front-end developer</h3>
             <p className="mb-6">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
-              architecto nam, impedit hic totam a. Iste, in? Dolorem odit
-              nostrum atque impedit, neque accusantium fugiat iste earum hic
-              tempore placeat.
+            Throughout my learning, I have been able to apply 
+            knowledge not only in programming or the development 
+            world but also essential knowledge for project construction.
             </p>
             {/*Stats*/}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 ">
@@ -61,11 +60,11 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={6} duration={5} /> : null}
+                  {inView ? <CountUp start={0} end={1} duration={5} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  cinco años <br />
-                  Formación
+                  Project <br />
+                  group
                 </div>
               </div>
             </div>

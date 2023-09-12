@@ -26,7 +26,8 @@ const Work = () => {
                 Work
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Some deployed projects and you can see the 
+                other projects down below in more info.
               </p>
               <a className="text-gradient btn-link " target="_blank" rel='noreferrer'  href="https://github.com/alexanderchiquito">
                 More Info

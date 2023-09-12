@@ -1,13 +1,15 @@
 //images
 import Avatar from "../assets/avatar.png";
 //icons
-import { FaGithub, FaDribbble } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
 //type animation
 import { TypeAnimation } from "react-type-animation";
 //motion
 import { motion } from "framer-motion";
 //Variants
 import { fadeIn } from "../variants";
+
 
 const Banner = () => {
   return (
@@ -76,8 +78,11 @@ const Banner = () => {
               <a target="_blank" rel='noreferrer' href="https://github.com/alexanderchiquito">
                 <FaGithub />
               </a>
-              <a target="_blank" rel='noreferrer' href="">
-                <FaDribbble />
+              <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/alexander-ramirez-chiquito-92a23a280/">
+                <AiFillLinkedin />
+              </a>
+              <a target="_blank" rel='noreferrer' href="https://www.instagram.com/chiikito_alex/">
+                <AiFillInstagram/>
               </a>
             </motion.div>
           </div>
